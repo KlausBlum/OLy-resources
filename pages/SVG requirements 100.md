@@ -116,7 +116,7 @@ When editing an existing OLy object, you won't always have to repeat the croppin
 
 In the <em>Config</em> dialog, you can specify if you want this option to be turned on or off by default. There are independent settings for Writer and Impress/Draw.
 
-Okay, now you are ready. If you want to get a little more background knowledge about why you had to install fonts and (eventually) adapt templates, you can continue reading... but now there are no more steps to take. Instead, you can stop reading here and start typesetting your music.  :-)
+Okay, now you are ready to go. If you want to get a little more background knowledge about why you had to install fonts and (eventually) adapt templates, you can continue reading... but now there are no more steps to take. Instead, you can stop reading here and start typesetting your music.  :-)
 
 ## Appendix: What's that font problem?
 
