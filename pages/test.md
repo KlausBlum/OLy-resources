@@ -6,11 +6,12 @@ big picture:
 
 medium picture:
 
-![Medium](https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/medium.png)
+<img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/medium.png" width="500">
+
 
 small picture:
 
-![Small](https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/small.png)
+<img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/small.png" width="250">
 
 
 That's it.
