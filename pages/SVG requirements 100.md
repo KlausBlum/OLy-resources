@@ -41,7 +41,7 @@ The **svg** file format is mainly interesting for backwards compatibility (from 
 
 ## 2.) Adapting templates
 
-If you have updated your templates during the installation of OLy 1.0.0 or later (with the "Restore templates" button) or this OLy version was the first you have ever installed, you can skip this chapter and continue with "3.) Manual cropping". 
+If you have updated your templates during the installation of OLy 1.0.0 or later (with the "Restore templates" button) or this OLy version was the first you have ever installed, you can skip this chapter and continue with "[3.) Manual cropping](#3-manual-cropping)". 
 If your templates come from an OLy version starting with 0.5 and you did not yet prepare the templates with an `[SVG]` in their name, here is some more work for you.
 
 We now have to explicitely <a href="http://lilypond.org/doc/v2.19/Documentation/notation/fonts.html#entire-document-fonts">specify</a> the font families. Therefore we need to go to the template folder (its location can be viewed in the OLy <em>Config</em> dialog) and manually edit the template files that have <em>[SVG]</em> in their name.
