@@ -41,7 +41,7 @@ The **svg** file format is mainly interesting for backwards compatibility (from 
 
 ## 2.) Adapting templates
 
-If you have updated your templates during the installation of OLy 1.0.0 or later (with the "Restore templates" button) or this OLy version was the first you have ever installed, you can skip this chapter and continue with "[3.) Manual cropping](#3-manual-cropping)". 
+If you have updated your templates during the installation of OLy 1.0.0 or later (with the "Restore templates" button) or this OLy version was the first you have ever installed, you can skip this chapter and continue with *[chapter 3.) Manual cropping](#3-manual-cropping)*. 
 If your templates come from an OLy version starting with 0.5 and you did not yet prepare the templates with an `[SVG]` in their name, here is some more work for you.
 
 We now have to explicitely <a href="http://lilypond.org/doc/v2.19/Documentation/notation/fonts.html#entire-document-fonts">specify</a> the font families. Therefore we need to go to the template folder (its location can be viewed in the OLy <em>Config</em> dialog) and manually edit the template files that have <em>[SVG]</em> in their name.
@@ -158,7 +158,7 @@ Users of Version <strong>2.18</strong> can download those font families from the
 * <a href="https://www.fontsquirrel.com/fonts/tex-gyre-heros">www.fontsquirrel.com/fonts/tex-gyre-heros</a>
 * <a href="https://www.fontsquirrel.com/fonts/tex-gyre-cursor">www.fontsquirrel.com/fonts/tex-gyre-cursor</a>
 
-Unfortunately, the developers decided to make another change: <code>.svg</code> graphic files created by LilyPond 2.19 no more contain font names by default. Instead, they use aliases like "serif", "sans-serif" and "monospace". While there might be <a href="http://lilypond.1069038.n5.nabble.com/markup-sans-does-not-always-give-sans-serif-output-in-svgs-in-2-19-36-td187143.html">some reasons for that decision</a>, we are therefore required to make the adjustments described in *chapter 2: Adapting templates.* 
+Unfortunately, the developers decided to make another change: <code>.svg</code> graphic files created by LilyPond 2.19 no more contain font names by default. Instead, they use aliases like "serif", "sans-serif" and "monospace". While there might be <a href="http://lilypond.1069038.n5.nabble.com/markup-sans-does-not-always-give-sans-serif-output-in-svgs-in-2-19-36-td187143.html">some reasons for that decision</a>, we are therefore required to make the adjustments described in *[chapter 2: Adapting templates](#2-adapting-templates).* 
 
-To simplify this whole mess, as of version 1.0.0 OLy will assume that you have installed the necessary fonts as described in *chapter 1: Providing fonts*. All `[SVG]` and `[SVG -dcrop]` templates already contain the required declarations. 
+To simplify this whole mess, as of version 1.0.0 OLy will assume that you have installed the necessary fonts as described in *[chapter 1: Providing fonts](#1-providing-fonts)*. All `[SVG]` and `[SVG -dcrop]` templates already contain the required declarations. 
  
