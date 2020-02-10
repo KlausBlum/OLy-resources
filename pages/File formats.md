@@ -4,19 +4,19 @@ This dropdown box lets you choose which graphic file format OLy will use to inse
 Each format has its specific advantages and disadvantages. 
 Currently, OLy supports the following formats: 
 
-**[PNG](https://github.com/openlilylib/LO-ly/wiki/Config#png)**
+**[PNG](#png)**
 * `-`  limited image quality (bitmap format)
 * `+` works immediately, no further preparations required
 * `-` does not support inserting as separate images (system-by-system)
 * `+` usable in both LibreOffice and OpenOffice
 
-**[EPS](https://github.com/openlilylib/LO-ly/wiki/Config#eps)**
+**[EPS](#eps)**
 * `+` good image quality (vector format)
 * `-`  only usable in OpenOffice (not in LibreOffice)
 * `+` supports inserting as separate images (system-by-system)
 * `-`  images are not displayed on screen and in PDF export (only in printout).
 
-**[SVG](https://github.com/openlilylib/LO-ly/wiki/Config#svg)**
+**[SVG](#svg-and-svg--dcrop)**
 * `+` good image quality (vector format)
 * `-` requires dedicated templates
 * `-` requires installing additional fonts
@@ -24,7 +24,7 @@ Currently, OLy supports the following formats:
 * `-` does not support inserting as separate images (system-by-system)
 * only usable in LibreOffice (not in OpenOffice)
 
-**[SVG [-dcrop]](https://github.com/openlilylib/LO-ly/wiki/Config#svg)**
+**[SVG [-dcrop]](#svg-and-svg--dcrop)**
 * `+` good image quality (vector format)
 * `-` requires dedicated templates
 * `-` requires installing additional fonts
@@ -32,7 +32,7 @@ Currently, OLy supports the following formats:
 * only usable in LibreOffice (not in OpenOffice)
 
 
-**[PDF to SVG](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg)** (recommended)
+**[PDF to SVG](#pdf-to-svg)** (recommended)
 * `+` good image quality (vector format)
 * `+` no dedicated templates and no additional fonts required
 * `-`  requires third-party conversion software
