@@ -1,6 +1,8 @@
 ## Format
 
-This dropdown box lets you choose which graphic file format OLy will use to insert musical snippets into your document. 
+<img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/format-dropdown-01.png">
+
+This dropdown box on the Config dialogue lets you choose which graphic file format OLy will use to insert musical snippets into your document. 
 Each format has its specific advantages and disadvantages. 
 Currently, OLy supports the following formats: 
 
