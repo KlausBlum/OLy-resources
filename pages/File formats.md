@@ -1,6 +1,6 @@
 ## Format
 
-<img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/format-dropdown-01.png">
+<img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/format-dropdown-03.png">
 
 This dropdown box on the Config dialogue lets you choose which graphic file format OLy will use to insert musical snippets into your document. 
 Each format has its specific advantages and disadvantages. 
@@ -80,24 +80,21 @@ Unlike with the SVG option, this works with any template, no restrictions apply.
 Also, no additional fonts have to be installed. _Therefore, this is the file format I'd currently recommend to choose._
 
 However, as a second step, this PDF file has to be converted into an SVG file which then will be inserted into your LO document. 
-That means, you will have to install an additional conversion software and specify the exact command line to be called. 
+That means, you will have to install an additional conversion software. In OLy's Config dialog, specify the exact command line to be called. 
 
 **For Linux and Mac**, this is easy: You can install the "pdf2svg" package via your package manager. 
 
 The default settings for the command line to be called should already be visible. 
 
+<img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/pdf2svg-linux-01.png">
+
+As command in the first edit field you simply need `pdf2svg`. The checkbox for `"*.svg*"` needs to be activated. Leave the second edit field empty.
+
 The resulting command line will look similar to this (replace "klaus" with your actual user name): 
 
-`pdf2svg "/home/klaus/.cache/ooolilypond/tmp/OOoLilyPond.pdf" OOoLilyPond.svg`
+`pdf2svg "/home/klaus/.cache/ooolilypond/tmp/OOoLilyPond.pdf" "/home/klaus/.cache/ooolilypond/tmp/OOoLilyPond.svg"`
 
-The filename OOoLilyPond.pdf preceeded by the correct path (without quotation marks) will be inserted by OLy, so you have
-`pdf2svg "`
-(notice the quotation mark at the end) as first part and
-`"`
-(only the quotation mark)
-as second part of the command. 
-
-You will already find this as default settings in your config dialogue.
+Between the contents of the two edit fields, OLy insert the filename `OOoLilyPond.pdf` preceeded by the correct path, wrapped in quotation marks - and (if the checkbox is activated) the same with `OOoLilyPond.svg`.
 
 **For Windows**, a suitable third-party tool has to be installed at your own risk. 
 At the moment, the only one I know of can be found here: 
@@ -106,22 +103,18 @@ http://blog.alivate.com.au/poppler-windows/
 
 Direct download: http://blog.alivate.com.au/wp-content/uploads/2018/10/poppler-0.68.0_x86.7z
 
-(While I don't know if I should recommend a software I barely know, all I can say is, I've tried it and to me it performs allright.) 
+(While I don't know if I should recommend a software I barely know, all I can say is, I've tried it and to me it performs allright. Apparently it consists of the same two libraries as pdf2svg, ported to windows.) 
 
 There is no installation, you just unpack its contents to a location of your choice (for example `C:\Portable\`).
+
+In the first edit field, specify the complete path to the executable file, wrapped in quotation marks (for example `"C:\Portable\poppler-0.68.0\bin\pdftocairo.exe"`. The checkbox should not be activated, the second edit field must be empty.
+
+<img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/pdf2svg-windows-01.png">
+
+As above, OLy inserts the PDF file name including path. 
 In my case ("Klaus" is my user name) the resulting command line is:
 
 `"C:\Portable\poppler-0.68.0\bin\pdftocairo.exe" -svg "C:\Users\Klaus\AppData\Local\Temp\OOoLilyPond.pdf"`
-
-As above, OLy inserts the PDF file name including path. 
-Hence the first part reads
-
-`"C:\Portable\poppler-0.68.0\bin\pdftocairo.exe" -svg "`
-(again, notice the quotation marks, eventually adapt the path to the location you've chosen above)
-
-and the second part is just 
-`"`
-(only the quotation mark).
 
 That's it. 
 
