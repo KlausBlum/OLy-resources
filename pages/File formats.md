@@ -39,7 +39,6 @@ Currently, OLy supports the following formats:
 * `+` no dedicated templates and no additional fonts required
 * `-`  requires third-party conversion software
 * `+` supports inserting as separate images (system-by-system)
-* only usable in LibreOffice (not in OpenOffice)
 
 ### **PNG**
 
@@ -53,7 +52,9 @@ However, PNG is not the best choice with regard to image quality: [File formats 
 Furthermore, PNG does not support the *"insert as separate images (system-by-system)"* option.
 
 ### **EPS**
-At the moment, EPS is the only vector format available for OpenOffice. LibreOffice cannot handle it. 
+For several reasons, the EPS format is not recommended for daily use:
+
+At the moment, EPS is only usable in OpenOffice. LibreOffice cannot handle it. 
 
 EPS images are printed correctly, but OpenOffice does not display them on screen. It's helpful to use PNG format at first. Once the musical snippets look as indended, they can be recompiled using the EPS format.
 
@@ -68,8 +69,6 @@ Using it also requires some important preparations that are described in detail 
 In short: 
 * probably you have to install some fonts. 
 * SVG format requires templates marked [SVG] in their name, SVG [-dcrop] format requires templates marked [SVG -dcrop].
-
-The "SVG [-dcrop]" format might be the recommended option for you if you don't want to install additional conversion software (which would be necessary for using "PDF to SVG", see below.)
 
 ### **PDF to SVG**
 (This feature is available as of OLy v. 0.5.11)
