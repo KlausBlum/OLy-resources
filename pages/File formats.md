@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/format-dropdown-03.png">
 
-This dropdown box on the Config dialogue lets you choose which graphic file format OLy will use to insert musical snippets into your document. 
+The *Format* dropdown box on the Config dialogue lets you choose which graphic file format OLy will use to insert musical snippets into your document. 
 Each format has its specific advantages and disadvantages. 
 Currently, OLy supports the following formats: 
 
@@ -94,7 +94,7 @@ The resulting command line will look similar to this (replace "klaus" with your 
 
 `pdf2svg "/home/klaus/.cache/ooolilypond/tmp/OOoLilyPond.pdf" "/home/klaus/.cache/ooolilypond/tmp/OOoLilyPond.svg"`
 
-Between the contents of the two edit fields, OLy insert the filename `OOoLilyPond.pdf` preceeded by the correct path, wrapped in quotation marks - and (if the checkbox is activated) the same with `OOoLilyPond.svg`.
+Between the contents of the two edit fields, OLy inserts the filename `OOoLilyPond.pdf` preceeded by the correct path, wrapped in quotation marks - and (if the checkbox is activated) the same with `OOoLilyPond.svg`.
 
 **For Windows**, a suitable third-party tool has to be installed at your own risk. 
 At the moment, the only one I know of can be found here: 
@@ -103,7 +103,7 @@ http://blog.alivate.com.au/poppler-windows/
 
 Direct download: http://blog.alivate.com.au/wp-content/uploads/2018/10/poppler-0.68.0_x86.7z
 
-(While I don't know if I should recommend a software I barely know, all I can say is, I've tried it and to me it performs allright. Apparently it consists of the same two libraries as pdf2svg, ported to windows.) 
+(While I don't know if I should recommend a software I barely know, all I can say is, I've been using it for several months now and to me it performs allright. Apparently it consists of the same two libraries as pdf2svg, ported to windows.) 
 
 There is no installation, you just unpack its contents to a location of your choice (for example `C:\Portable\`).
 
