@@ -80,7 +80,7 @@ Unlike with the SVG option, this works with any template, no restrictions apply.
 Also, no additional fonts have to be installed. _Therefore, this is the file format I'd currently recommend to choose._
 
 However, as a second step, this PDF file has to be converted into an SVG file which then will be inserted into your LO document. 
-That means, you will have to install an additional conversion software. In OLy's Config dialog, specify the exact command line to be called. 
+That means, you will have to install an additional conversion software. In OLy's Config dialogue, specify the exact command line to be called. 
 
 **For Linux and Mac**, this is easy: You can install the "pdf2svg" package via your package manager. 
 
