@@ -1,5 +1,11 @@
 # Test
 
+Here's a link: [Understanding templates](understanding-templates)
+
+another: [Downloads](Downloads#downloads)
+
+original: [Downloads](https://github.com/openlilylib/LO-ly/wiki/Downloads#downloads)
+
 big picture:
 
 ![Big](https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/big.png)
