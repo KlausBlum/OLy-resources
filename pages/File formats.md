@@ -80,17 +80,17 @@ Unlike with the SVG option, this works with any template, no restrictions apply.
 Also, no additional fonts have to be installed. _Therefore, this is the file format I'd currently recommend to choose._
 
 However, as a second step, this PDF file has to be converted into an SVG file which then will be inserted into your LO document. 
-That means, you will have to install an additional conversion software. In OLy's Config dialogue, specify the exact command line to be called. 
+That means, you will have to install an additional conversion software. In OLy's Config dialogue, you need to specify the exact command line to be called. 
 
-**For Linux and Mac**, this is easy: You can install the "pdf2svg" package via your package manager. 
+**For Linux and Mac**, this is easy: You can install the "pdf2svg" package via your package manager. In the terminal, you can install it with `sudo apt-get install pdf2svg`.
 
-The default settings for the command line to be called should already be visible. 
+The default settings for the command line to be called should already be visible in the Config dialogue: 
 
 <img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/pdf2svg-linux-01.png">
 
 As command in the first edit field you simply need `pdf2svg`. The checkbox for `"*.svg*"` needs to be activated. Leave the second edit field empty.
 
-The resulting command line will look similar to this (replace "klaus" with your actual user name): 
+That's all. The resulting command line will look similar to this (replace "klaus" with your actual user name): 
 
 `pdf2svg "/home/klaus/.cache/ooolilypond/tmp/OOoLilyPond.pdf" "/home/klaus/.cache/ooolilypond/tmp/OOoLilyPond.svg"`
 
@@ -107,11 +107,12 @@ Direct download: http://blog.alivate.com.au/wp-content/uploads/2018/10/poppler-0
 
 There is no installation, you just unpack its contents to a location of your choice (for example `C:\Portable\`).
 
+Back to the Config dialogue: 
 In the first edit field, specify the complete path to the executable file, wrapped in quotation marks (for example `"C:\Portable\poppler-0.68.0\bin\pdftocairo.exe"`. The checkbox should not be activated, the second edit field must be empty.
 
 <img src="https://raw.githubusercontent.com/KlausBlum/OLy-resources/master/images/pdf2svg-windows-01.png">
 
-As above, OLy inserts the PDF file name including path. 
+As above, OLy inserts the PDF file name including its path. 
 In my case ("Klaus" is my user name) the resulting command line is:
 
 `"C:\Portable\poppler-0.68.0\bin\pdftocairo.exe" -svg "C:\Users\Klaus\AppData\Local\Temp\OOoLilyPond.pdf"`
