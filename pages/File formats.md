@@ -52,7 +52,7 @@ However, PNG is not the best choice with regard to image quality: [File formats 
 Furthermore, PNG does not support the *"insert as separate images (system-by-system)"* option.
 
 ### **EPS**
-For several reasons, the EPS format is not recommended for daily use:
+EPS is a vector format. However, there are several reasons why I would not recommend it for daily use:
 
 At the moment, EPS is only usable in OpenOffice. LibreOffice cannot handle it. 
 
@@ -62,7 +62,8 @@ EPS images also are missing in PDF export. At least on Windows, there is a worka
 Windows 10 has a built-in printer driver named _"Microsoft Print to PDF"_ that works well here. 
 
 ### **SVG** and **SVG [-dcrop]**
-There are two different ways to use the SVG file format. It is only supported by LibreOffice (and not by OpenOffice). 
+There are two different ways to use the SVG file format. It is only supported by LibreOffice (and not by OpenOffice which cannot import SVG files produced by LilyPond). 
+
 Using it also requires some important preparations that are described in detail here: 
 [SVG requirements](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements#svg-requirements).
 
