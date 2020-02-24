@@ -73,7 +73,6 @@ In short:
 The "SVG [-dcrop]" format might be the recommended option for you if you don't want to install additional conversion software (which would be necessary for using "PDF to SVG", see below.)
 
 ### **PDF to SVG**
-(This feature is available as of OLy v. 0.5.11)
 
 With this option selected, OLy will call LilyPond to produce a PDF file. 
 Unlike with the SVG option, this works with any template, no restrictions apply. 
