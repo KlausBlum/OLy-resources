@@ -4,6 +4,9 @@
 
 The *Format* dropdown box on the Config dialogue lets you choose which graphic file format OLy will use to insert musical snippets into your document. 
 Each format has its specific advantages and disadvantages. 
+
+If you don't mind installing a small piece of additional software, I would recommend to choose the **[PDF to SVG](#pdf-to-svg)** format.
+
 Currently, OLy supports the following formats: 
 
 **[PNG](#png)**
